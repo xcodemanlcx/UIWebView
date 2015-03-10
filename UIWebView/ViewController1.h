@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController1.h
 //  UIWebView
 //
 //  Created by hx_leichunxiang on 14-11-3.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController1 : UIViewController
+{
+    UIWebView *_webView;
 
-
+}
 @end
-

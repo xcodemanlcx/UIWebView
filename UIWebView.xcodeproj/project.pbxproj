@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185B573E1AAEE36D00CBB047 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 185B573D1AAEE36D00CBB047 /* File */; };
 		18D60A151A072946005C96A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D60A141A072946005C96A0 /* main.m */; };
 		18D60A181A072946005C96A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D60A171A072946005C96A0 /* AppDelegate.m */; };
-		18D60A1B1A072946005C96A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D60A1A1A072946005C96A0 /* ViewController.m */; };
 		18D60A1E1A072947005C96A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D60A1C1A072947005C96A0 /* Main.storyboard */; };
 		18D60A201A072947005C96A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D60A1F1A072947005C96A0 /* Images.xcassets */; };
 		18D60A231A072947005C96A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D60A211A072947005C96A0 /* LaunchScreen.xib */; };
 		18D60A2F1A072947005C96A0 /* UIWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D60A2E1A072947005C96A0 /* UIWebViewTests.m */; };
+		18D60A3A1A074B9A005C96A0 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D60A391A074B9A005C96A0 /* ViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185B573D1AAEE36D00CBB047 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		18D60A0F1A072946005C96A0 /* UIWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D60A131A072946005C96A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D60A141A072946005C96A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D60A161A072946005C96A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18D60A171A072946005C96A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18D60A191A072946005C96A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18D60A1A1A072946005C96A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18D60A1D1A072947005C96A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18D60A1F1A072947005C96A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18D60A221A072947005C96A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18D60A281A072947005C96A0 /* UIWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D60A2D1A072947005C96A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D60A2E1A072947005C96A0 /* UIWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewTests.m; sourceTree = "<group>"; };
+		18D60A381A074B9A005C96A0 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		18D60A391A074B9A005C96A0 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,9 @@
 			children = (
 				18D60A161A072946005C96A0 /* AppDelegate.h */,
 				18D60A171A072946005C96A0 /* AppDelegate.m */,
-				18D60A191A072946005C96A0 /* ViewController.h */,
-				18D60A1A1A072946005C96A0 /* ViewController.m */,
+				18D60A381A074B9A005C96A0 /* ViewController1.h */,
+				18D60A391A074B9A005C96A0 /* ViewController1.m */,
+				185B573D1AAEE36D00CBB047 /* File */,
 				18D60A1C1A072947005C96A0 /* Main.storyboard */,
 				18D60A1F1A072947005C96A0 /* Images.xcassets */,
 				18D60A211A072947005C96A0 /* LaunchScreen.xib */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185B573E1AAEE36D00CBB047 /* File in Resources */,
 				18D60A1E1A072947005C96A0 /* Main.storyboard in Resources */,
 				18D60A231A072947005C96A0 /* LaunchScreen.xib in Resources */,
 				18D60A201A072947005C96A0 /* Images.xcassets in Resources */,
@@ -219,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D60A1B1A072946005C96A0 /* ViewController.m in Sources */,
+				18D60A3A1A074B9A005C96A0 /* ViewController1.m in Sources */,
 				18D60A181A072946005C96A0 /* AppDelegate.m in Sources */,
 				18D60A151A072946005C96A0 /* main.m in Sources */,
 			);
@@ -412,6 +416,7 @@
 				18D60A341A072947005C96A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D60A351A072947005C96A0 /* Build configuration list for PBXNativeTarget "UIWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				18D60A371A072947005C96A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
